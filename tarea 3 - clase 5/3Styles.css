@@ -8,14 +8,14 @@ head {
 }
 
 body {
-    background-image: url("https://cutewallpaper.org/21/gandalf-background/City,-Building,-The-Lord-Of-The-Rings,-Gandalf,-Minas-Lord-.jpg");
+    background-image: url("https://fondosmil.com/fondo/6594.jpg");
     background-size: 100% 100%;
 	max-width: 100%;
 	box-sizing: border-box;
 	background-color: transparent;
 	font-family: 'Roboto', sans-serif;
 	text-align: center;
-    color: rgba(255, 255, 255, 0.699);
+    color: rgb(255, 255, 255);
 }
 
 
@@ -25,7 +25,7 @@ body {
 }
 
 .clase-numero {
-    color: #e9e6d8;
+    color: #ffffff;
     font-weight: bold;
     font-weight: 600;
 }
