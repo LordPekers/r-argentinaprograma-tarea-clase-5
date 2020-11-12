@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Tarea 3 - Clase 5 - </title>
+        <link rel="stylesheet" href="3Styles.css">
+        <link rel="icon" type="image/jpg" href="favicon-32x32.png" sizes="32x32"/>
+        <link rel="icon" type="image/jpg" href="favicon-16x16.png" sizes="16x16"/>
+    </head>
+
+    <body> 
+        <h2 class="titulo" id="titulo">¿PODRIA USTED COMPLETAR LOS DATOS EN, HORAS, MINUTOS Y SEGUNDOS DE LAS PRIMERAS CINCO CLASES?</h2>
+        <a href="https://www.youtube.com/channel/UCXfQLgiBQPIzBp8-nRsG0KA/videos" target="_blank">Click aquí para obtener los datos</a>  
+
+        <form name="formulario">
+            <p></p>
+            <label class="clase-numero" for="number">HH:MM:SS Clase Uno</label>
+            <p></p>
+            <label for="hora">Horas</label>
+            <input class="placeholder" type="number" id="horas-clase-1" placeholder="Ej.: 2"/>
+            <label for="minutos">Minutos</label>
+            <input class="placeholder" type="number" id="minutos-clase-1" placeholder="Ej.: 30"/>
+            <label for="segundos">Segundos</label>
+            <input class="placeholder" type="number" id="segundos-clase-1" placeholder="Ej.: 20"/>
+            <button type="button" id="cargar-clase-1">Cargar</button>
+            <p></p>
+
+            <label class="clase-numero" for="number">HH:MM:SS Clase Dos</label>
+            <p></p>
+            <label for="hora">Horas</label>
+            <input class="placeholder" type="number" id="horas-clase-2" placeholder=""/>
+            <label  for="minutos">Minutos</label>
+            <input class="placeholder" type="number" id="minutos-clase-2" placeholder=""/>
+            <label for="segundos">Segundos</label>
+            <input class="placeholder" type="number" id="segundos-clase-2" placeholder=""/>
+            <button type="button" id="cargar-clase-2">Cargar</button>
+            <p></p>
+
+            <label class="clase-numero" for="number">HH:MM:SS Clase Tres</label>
+            <p></p>
+            <label for="hora">Horas</label>
+            <input class="placeholder" type="number" id="horas-clase-3" placeholder=""/>
+            <label for="minutos">Minutos</label>
+            <input class="placeholder" type="number" id="minutos-clase-3" placeholder=""/>
+            <label for="segundos">Segundos</label>
+            <input class="placeholder" type="number" id="segundos-clase-3" placeholder=""/>
+            <button type="button" id="cargar-clase-3">Cargar</button>
+            <p></p>
+
+            <label class="clase-numero" for="number">HH:MM:SS Clase Cuatro</label>
+            <p></p>
+            <label for="hora">Horas</label>
+            <input class="placeholder" type="number" id="horas-clase-4" placeholder=""/>
+            <label for="minutos">Minutos</label>
+            <input class="placeholder" type="number" id="minutos-clase-4" placeholder=""/>
+            <label for="segundos">Segundos</label>
+            <input class="placeholder" type="number" id="segundos-clase-4" placeholder=""/>
+            <button type="button" id="cargar-clase-4">Cargar</button>
+            <p></p>
+
+            <label class="clase-numero" for="number">HH:MM:SS Clase Cinco</label>
+            <p></p>
+            <label for="hora">Horas</label>
+            <input class="placeholder" type="number" id="horas-clase-5" placeholder=""/>
+            <label  for="minutos">Minutos</label>
+            <input class="placeholder" type="number" id="minutos-clase-5" placeholder=""/>
+            <label for="segundos">Segundos</label>
+            <input class="placeholder" type="number" id="segundos-clase-5" placeholder=""/>
+            <button type="button" id="cargar-clase-5">Cargar</button>
+        
+        </form>
+
+        <main>
+            <p></p>
+            <label for="resultado1">Total Minutos clase 1</label>
+            <input type="number" disabled id="resultado1"/>
+
+            <p></p>
+            <label for="resultado2">Total Minutos clase 2</label>
+            <input type="number" disabled id="resultado2"/>
+
+            <p></p>
+            <label for="resultado3">Total Minutos clase 3</label>
+            <input type="number" disabled id="resultado3"/>
+
+            <p></p>
+            <label for="resultado4">Total Minutos clase 4</label>
+            <input type="number" disabled id="resultado4"/>
+
+            <p></p>
+            <label for="resultado5">Total Minutos clase 5</label>
+            <input class="placeholder" type="number" disabled id="resultado5"/>
+            
+        </main>
+    </body>
+    
+    <p></p>
+    <strong id="resultado" class="resultado">El total es: </strong>
+
+    <script type="text/javascript" src="main.js"></script>
+
+</html>
+

@@ -1,0 +1,51 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+head {
+    font: small-caps 100%/200% serif; 
+}
+
+body {
+    background-image: url("https://cutewallpaper.org/21/gandalf-background/City,-Building,-The-Lord-Of-The-Rings,-Gandalf,-Minas-Lord-.jpg");
+    background-size: 100% 100%;
+	max-width: 100%;
+	box-sizing: border-box;
+	background-color: transparent;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+    color: rgba(255, 255, 255, 0.699);
+}
+
+
+
+#titulo {
+    font-size: 20px;
+}
+
+.clase-numero {
+    color: #e9e6d8;
+    font-weight: bold;
+    font-weight: 600;
+}
+
+#resultado1 {
+    color: black;
+}
+
+#resultado2 {
+    color: black;
+}
+
+#resultado3 {
+    color: black;
+}
+
+#resultado4 {
+    color: black;
+}
+
+#resultado5 {
+    color: black;
+}
