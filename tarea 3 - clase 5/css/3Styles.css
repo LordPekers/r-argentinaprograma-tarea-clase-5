@@ -1,6 +1,7 @@
 html, body {
     margin: 0;
     padding: 0;
+    line-height: normal;
 }
 
 head {
@@ -8,24 +9,22 @@ head {
 }
 
 body {
-    background-image: url("https://fondosmil.com/fondo/6594.jpg");
-    background-size: 100% 100%;
-	max-width: 100%;
-	box-sizing: border-box;
-	background-color: transparent;
+	background-color: #e6d74dea;
 	font-family: 'Roboto', sans-serif;
 	text-align: center;
-    color: rgb(255, 255, 255);
+    color: rgb(56, 51, 51);
 }
 
-
+.box {
+    margin-bottom: 30px;
+}
 
 #titulo {
     font-size: 20px;
 }
 
 .clase-numero {
-    color: #ffffff;
+    color: #000000;
     font-weight: bold;
     font-weight: 600;
 }

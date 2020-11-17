@@ -10,11 +10,13 @@
     </head>
 
     <body> 
-        <h2 class="titulo" id="titulo">¿PODRIA USTED COMPLETAR LOS DATOS EN, HORAS, MINUTOS Y SEGUNDOS DE LAS PRIMERAS CINCO CLASES?</h2>
-        <a href="https://www.youtube.com/channel/UCXfQLgiBQPIzBp8-nRsG0KA/videos" target="_blank">Click aquí para obtener los datos</a>  
+        <div class="box">
+            <h2 class="titulo" id="titulo">¿PODRIA USTED COMPLETAR LOS DATOS EN, HORAS, MINUTOS Y SEGUNDOS DE LAS PRIMERAS CINCO CLASES?</h2>
+            <a href="https://www.youtube.com/channel/UCXfQLgiBQPIzBp8-nRsG0KA/videos" target="_blank">Click aquí para obtener los datos</a>  
+        </div>
 
-        <form name="formulario">
-            <p></p>
+        <form class="box" name="formulario">
+            
             <label class="clase-numero" for="number">HH:MM:SS Clase Uno</label>
             <p></p>
             <label for="hora">Horas</label>
@@ -24,7 +26,7 @@
             <label for="segundos">Segundos</label>
             <input class="placeholder" type="number" id="segundos-clase-1" placeholder="Ej.: 20"/>
             <button type="button" id="cargar-clase-1">Cargar</button>
-            <p></p>
+            <p></p> 
 
             <label class="clase-numero" for="number">HH:MM:SS Clase Dos</label>
             <p></p>
@@ -71,30 +73,28 @@
         
         </form>
 
-        <main>
-            <p></p>
+        <main class="box">
             <label for="resultado1">Total Minutos clase 1</label>
             <input type="number" disabled id="resultado1"/>
-
             <p></p>
+            
             <label for="resultado2">Total Minutos clase 2</label>
             <input type="number" disabled id="resultado2"/>
-
             <p></p>
+            
             <label for="resultado3">Total Minutos clase 3</label>
             <input type="number" disabled id="resultado3"/>
-
             <p></p>
+            
             <label for="resultado4">Total Minutos clase 4</label>
             <input type="number" disabled id="resultado4"/>
-
             <p></p>
+            
             <label for="resultado5">Total Minutos clase 5</label>
             <input class="placeholder" type="number" disabled id="resultado5"/>
             
         </main>
 
-        <p></p>
         <strong id="resultado" class="resultado">El total es: </strong>
     </body>
     
