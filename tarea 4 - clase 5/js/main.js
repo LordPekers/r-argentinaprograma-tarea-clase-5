@@ -21,11 +21,11 @@ function calcularPromedio() {
         total = total + elementoArray;
     }
 
-    let contenidoEm = document.querySelector("#promedio");
+    let $contenidoEm = document.querySelector("#promedio");
 
     valorPromedio = total / arrayDeNumeros.length;
 
-    contenidoEm.innerText = `El promedio es: ${valorPromedio}`;
+    $contenidoEm.innerText = `El promedio es: ${valorPromedio}`;
 
 }
 
@@ -43,9 +43,9 @@ function calcularNumeroMayor() {
         }
     }
 
-    let contenidoEm = document.querySelector("#numero-mas-grande");
+    let $contenidoEm = document.querySelector("#numero-mas-grande");
 
-    contenidoEm.innerText = `El número más grande es: ${numeroMayor}`;
+    $contenidoEm.innerText = `El número más grande es: ${numeroMayor}`;
 }
 
 
@@ -62,9 +62,9 @@ function calcularNumeroMenor() {
         }
     }
 
-    let contenidoEm = document.querySelector("#numero-mas-chico");
+    let $contenidoEm = document.querySelector("#numero-mas-chico");
 
-    contenidoEm.innerText = `El número más chico es: ${numeroMenor}`;
+    $contenidoEm.innerText = `El número más chico es: ${numeroMenor}`;
 }
 
 
@@ -104,7 +104,7 @@ function numeroMasFrecuente() {
         }
     }
 
-    let contenidoEm = document.querySelector("#numero-mas-frecuente");
-    contenidoEm.innerText = `El número más frecuente es ${arrayDeNumerosRepetidos[indice]}`;
+    let $contenidoEm = document.querySelector("#numero-mas-frecuente");
+    $contenidoEm.innerText = `El número más frecuente es ${arrayDeNumerosRepetidos[indice]}`;
 
 }
